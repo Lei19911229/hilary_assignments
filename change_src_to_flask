@@ -1,0 +1,22 @@
+import re
+
+# 定义替换函数
+def replace_src(match):
+    # 提取 img 路径 (等号后面的字符串)
+    src_value = match.group(1)
+    # 返回替换后的字符串
+    return f'src="{{{{ url_for(\'static\', filename=\'{src_value}\') }}}}"'
+
+# 读取要修改的文件内容
+with open('./templates/index.html', 'r', encoding='utf-8') as file:
+    content = file.read()
+
+# 使用正则表达式匹配 src 属性并替换
+# 该正则表达式匹配 src="..." 形式，捕获引号内的内容
+new_content = re.sub(r'src="([^"]+)"', replace_src, content)
+
+# 将修改后的内容写回文件
+with open('./templates/index.html', 'w', encoding='utf-8') as file:
+    file.write(new_content)
+
+print("替换完成！")
