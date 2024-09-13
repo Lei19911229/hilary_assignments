@@ -199,7 +199,7 @@
             <section id="home" class="slider-area fix p-relative">
                
                 <div id="parallax" class="slider-active" style="background: #141b22;">
-                    <div class="single-slider slider-bg" style="background-image: url(img/slider/slider_bg.png); background-size: cover;background-position: center bottom;">
+                    <div class="single-slider slider-bg" style="background-image: {{ url_for('static', filename='img/slider/slider_bg.png') }}; background-size: cover;background-position: center bottom;">
                          <div class="slider-shape ss-one layer" data-depth="0.30"><img src="{{ url_for('static', filename='img/slider/slider_shape01.png') }}" alt="shape"></div>
                         <div class="container">
                            <div class="row">
