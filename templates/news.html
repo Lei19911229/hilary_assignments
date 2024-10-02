@@ -1,0 +1,169 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Scholary - University and College HTML Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/scholary/img/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dripicons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/slick.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/meanmenu.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/default.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+</head>
+
+<body>
+    {% include 'header.html' %}
+    <!-- main-area -->
+    <main>
+
+        <!-- breadcrumb-area -->
+        <section class="breadcrumb-area d-flex  p-relative align-items-center"
+            style="background-image:url({{ url_for('static', filename='img/bg/bdrc-bg.png') }})">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="breadcrumb-wrap text-left">
+                            <div class="breadcrumb-title">
+                                <h2>News</h2>
+                            </div>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="{{ url_for('index') }}">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">News</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- breadcrumb-area-end -->
+        <!-- service-area -->
+        <section class="service-details-two service-details-four pt-120 pb-90 p-relative fix"
+            style="background: #FCFAF8;">
+            <div class="animations-01"><img src="{{ url_for('static', filename='img/bg/slider_shape17.png') }}"></div>
+            <div class="container">
+                <div class="service-box mb-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-1 col-md-6 td">
+                            <div class="td-numner">01</div>
+                        </div>
+                        <div class="col-lg-7 col-md-6 td">
+                            <div class="date"><i class="fal fa-calendar-alt"></i> October 19, 2023</div>
+                            <h3>The key to unlocking endless possibilities</h3>
+                            <p>We have been operating for over a decade, providing top-notch our clients and building a
+                                strong track record in the industry.</p>
+                        </div>
+                        <div class="col-lg-2 col-md-6 td text-center">
+                            <div class="td-icon"><img
+                                    src="{{ url_for('static', filename='img/icon/book-icon-01.png') }}"></div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 td text-right"><a href="single-event.html" class="read">Read More
+                                <i class="fa-regular fa-arrow-right"></i></a></div>
+                    </div>
+                </div>
+                <div class="service-box mb-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-1 col-md-6 td">
+                            <div class="td-numner">02</div>
+                        </div>
+                        <div class="col-lg-7 col-md-6 td">
+                            <div class="date"><i class="fal fa-calendar-alt"></i> October 19, 2023</div>
+                            <h3>Your potential through education</h3>
+                            <p>We have been operating for over a decade, providing top-notch our clients and building a
+                                strong track record in the industry.</p>
+                        </div>
+                        <div class="col-lg-2 col-md-6 td text-center">
+                            <div class="td-icon"><img
+                                    src="{{ url_for('static', filename='img/icon/book-icon-01.png') }}"></div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 td text-right"><a href="single-event.html" class="read">Read More
+                                <i class="fa-regular fa-arrow-right"></i></a></div>
+                    </div>
+                </div>
+                <div class="service-box mb-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-1 col-md-6 td">
+                            <div class="td-numner">03</div>
+                        </div>
+                        <div class="col-lg-7 col-md-6 td">
+                            <div class="date"><i class="fal fa-calendar-alt"></i> October 19, 2023</div>
+                            <h3>Education is the key to success</h3>
+                            <p>We have been operating for over a decade, providing top-notch our clients and building a
+                                strong track record in the industry.</p>
+                        </div>
+                        <div class="col-lg-2 col-md-6 td text-center">
+                            <div class="td-icon"><img
+                                    src="{{ url_for('static', filename='img/icon/book-icon-01.png') }}"></div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 td text-right"><a href="single-event.html" class="read">Read More
+                                <i class="fa-regular fa-arrow-right"></i></a></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- service-details2-area-end -->
+        <!-- Project Detail -->
+        <section class="event-area-content" style="background: #FCFAF8;">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-xl-6 col-lg-6 col-sm-6">
+                        <img src="{{ url_for('static', filename='img/bg/event-img-01.png') }}">
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-sm-6">
+                        <h3>Instructions:</h3>
+                        <p>We have been operating for over a decade, providing top-notch our clients and building a
+                            strong track record in the industry. We have been operating for over a decade, providing
+                            top-notch our clients and building a strong track record in the industry.We have</p>
+                        <ul class="list-style-one">
+                            <li>Mistakes To Avoid</li>
+                            <li>Your Startup</li>
+                            <li>Knew About Fonts</li>
+                            <li>Winning Metric for Your Startup</li>
+                            <li>Your Startup</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Project Detail -->
+    </main>
+    <!-- main-area-end -->
+    {% include 'footer.html' %}
+    <!-- JS here -->
+    <script src="{{ url_for('static', filename='js/vendor/modernizr-3.5.0.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vendor/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/slick.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/ajax-form.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/paroller.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/wow.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/js_isotope.pkgd.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/imagesloaded.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/parallax.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.scrollUp.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.meanmenu.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/parallax-scroll.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/element-in-view.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>

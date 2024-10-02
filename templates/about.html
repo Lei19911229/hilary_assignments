@@ -1,0 +1,429 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Scholary - University and College HTML Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='img/logo/logo2.png') }}">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fontawesome/css/all.min.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dripicons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/slick.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/meanmenu.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/default.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+</head>
+
+<body>
+    {% include 'header.html' %}
+    <!-- main-area -->
+    <main>
+
+        <!-- breadcrumb-area -->
+        <section class="breadcrumb-area d-flex  p-relative align-items-center"
+            style="background-image:url({{ url_for('static', filename='img/bg/bdrc-bg.png') }})">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="breadcrumb-wrap text-left">
+                            <div class="breadcrumb-title">
+                                <h2>About Us</h2>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="{{ url_for('index') }}">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- breadcrumb-area-end -->
+        <!-- about-area -->
+        <section class="about-area2 about-p pt-120 pb-120 p-relative fix">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="about-content s-about-content pl-15 wow fadeInRight  animated"
+                            data-animation="fadeInRight" data-delay=".4s">
+                            <div class="section-title2 second-title pb-25">
+                                <h5>About Our University</h5>
+                                <h2>A Few Words About the University</h2>
+                            </div>
+                            <p>Education is a vital aspect of human development, providing individuals with knowledge,
+                                skills, and opportunities to acquire new information.encompasses formal learning
+                                institutions</p>
+                            <div class="about-content3 mt-30 mb-30">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="green">
+                                            <li>9 Product Market Fit Mistakes </li>
+                                            <li>100 Product Management tip</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="green">
+                                            <li>How to Get Any Startup Idea </li>
+                                            <li>3 Ways to Improve Your Conver</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-btn mt-20">
+                                <span class="award-btn">
+                                    <div class="img"><img
+                                            src="{{ url_for('static', filename='img/icon/award-btn-icon.png') }}"></div>
+                                    20+ Winning award
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft"
+                            data-delay=".4s">
+                            <img src="{{ url_for('static', filename='img/features/about_img_02.png') }}">
+                            <div class="about-text second-about text-left">
+                                <div class="box-text">
+                                    <div class="icon"> <img
+                                            src="{{ url_for('static', filename='img/features/ab-ani-01.png') }}"> </div>
+                                    <div class="text">
+                                        <span>1.5k+</span>
+                                        Awards Winner
+                                    </div>
+                                </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing</p>
+                                <div></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-area-end -->
+        <!-- counter-area -->
+        <div class="counter-area pt-90 pb-60" style="background:#FCFAF8;">
+            <div class="container">
+
+                <div class="row p-relative cont-color">
+                    <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
+                        <div class="section-title section-title2 p-relative wow fadeInUp  animated"
+                            data-animation="fadeInUp" data-delay=".4s">
+                            <h2>
+                                Our Achievement Milestones
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12">
+                        <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated"
+                            data-delay=".2s">
+                            <div class="counter p-relative"
+                                style="background-image:url(/scholary/img/bg/c-object.png);  background-repeat: no-repeat;">
+                                <span class="count">200</span><small>+</small>
+                                <p>Team member</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12">
+                        <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated"
+                            data-delay=".2s">
+                            <div class="counter p-relative"
+                                style="background-image:url(/scholary/img/bg/c-object.png);  background-repeat: no-repeat;">
+                                <span class="count">20</span> <small>+</small>
+                                <p>Winning award</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12">
+                        <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated"
+                            data-delay=".2s">
+                            <div class="counter p-relative"
+                                style="background-image:url(/scholary/img/bg/c-object.png);  background-repeat: no-repeat;">
+                                <span class="count">10</span> <small>k+</small>
+                                <p>Complete project</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12">
+                        <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated"
+                            data-delay=".2s">
+                            <div class="counter p-relative"
+                                style="background-image:url(/scholary/img/bg/c-object.png);  background-repeat: no-repeat;">
+                                <span class="count">900</span><small>+</small>
+                                <p>Client review</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- counter-area-end -->
+
+        <!-- team-area -->
+        <section id="team" class="team-area fix p-relative pt-120 pb-90">
+            <div class="animations-09"><img src="{{ url_for('static', filename='img/bg/slider_shape06.png') }}"></div>
+            <div class="container">
+
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-lg-12 col-md-12">
+                        <div class="section-title section-title2 p-relative mb-50 wow fadeInUp  animated"
+                            data-animation="fadeInUp" data-delay=".4s">
+                            <h5>Our team member</h5>
+                            <h2>
+                                Navigate Challenges with Consulting Expertise
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-8"></div>
+                </div>
+                <div class="row team-active">
+                    <div class="col-xl-3 col-lg-3">
+                        <div class="single-team mb-30">
+                            <div class="team-thumb">
+                                <div class="brd">
+                                    <img src="{{ url_for('static', filename='img/team/team01.png') }}">
+
+                                </div>
+                                <div class="team-info">
+                                    <div class="team-social">
+                                        <a href="#" class="share-alt"><i class="fal fa-share-alt"></i></a>
+                                        <ul>
+
+                                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                            <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <h4><a href="team-single.html">H.Alexander Anna</a></h4>
+                                    <p>Managing Director</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3">
+                        <div class="single-team mb-30">
+                            <div class="team-thumb">
+                                <div class="brd">
+                                    <img src="{{ url_for('static', filename='img/team/team02.png') }}">
+                                </div>
+                                <div class="team-info">
+                                    <div class="team-social">
+                                        <a href="#" class="share-alt"><i class="fal fa-share-alt"></i></a>
+                                        <ul>
+
+                                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                            <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <h4><a href="team-single.html">Elizabeth Joseph</a></h4>
+                                    <p>Managing Director</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3">
+                        <div class="single-team mb-30">
+                            <div class="team-thumb">
+                                <div class="brd">
+                                    <img src="{{ url_for('static', filename='img/team/team03.png') }}">
+                                </div>
+                                <div class="team-info">
+                                    <div class="team-social">
+                                        <a href="#" class="share-alt"><i class="fal fa-share-alt"></i></a>
+                                        <ul>
+
+                                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                            <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <h4><a href="team-single.html">Benjamin Evelyn</a></h4>
+                                    <p>Designer</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3">
+                        <div class="single-team mb-30">
+                            <div class="team-thumb">
+                                <div class="brd">
+                                    <img src="{{ url_for('static', filename='img/team/team04.png') }}">
+                                </div>
+                                <div class="team-info">
+                                    <div class="team-social">
+                                        <a href="#" class="share-alt"><i class="fal fa-share-alt"></i></a>
+                                        <ul>
+
+                                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                            <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <h4><a href="team-single.html">Jack Martin</a></h4>
+                                    <p>Designer</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- team-area-end -->
+        <!-- testimonial-area -->
+        <section id="testimonial" class="testimonial-area pt-120 pb-90  p-relative fix" style="background: url(" {{
+            url_for('static', filename='img/bg/testimonial-bg.png' ) }}") no-repeat; background-position: center top;">
+            <div class="container">
+                <div class="row justify-content-center align-items-center mb-60">
+                    <div class="col-xl-7 col-lg-10 col-md-12">
+                        <div class="section-title section-title2 center-align mb-50 text-center wow fadeInDown animated"
+                            data-animation="fadeInDown" data-delay=".4s">
+                            <h5>Testimonial</h5>
+                            <h2>Education is the foundation of mind growth</h2>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="testimonial-active wow fadeInUp animated" data-animation="fadeInUp"
+                            data-delay=".4s">
+                            <div class="single-testimonial">
+                                <div class="qt-img">
+                                    <img src="{{ url_for('static', filename='img/testimonial/qt-icon.png') }}">
+                                </div>
+                                <p>Education is a vital aspect of human a development, providing pro individuals such
+                                    knowledge a skills, and opportunities to acquire new universities info rma tion.e
+                                    ncompasses formal lear </p>
+                                <div class="testi-author">
+                                    <div class="ta-info">
+                                        <h6>Miranda H. Halim</h6>
+                                        <span>Head Of Idea</span>
+                                    </div>
+                                    <div class="testi-author-img"> <img
+                                            src="{{ url_for('static', filename='img/testimonial/testi_avatar.png') }}">
+                                    </div>
+                                    <div class="review-icon">
+                                        <img src="{{ url_for('static', filename='img/bg/test-icon-01.png') }}">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-testimonial">
+                                <div class="qt-img">
+                                    <img src="{{ url_for('static', filename='img/testimonial/qt-icon-02.png') }}">
+                                </div>
+                                <p>Education is a vital aspect of human a development, providing pro individuals such
+                                    knowledge a skills, and opportunities to acquire new universities info rma tion.e
+                                    ncompasses formal lear </p>
+                                <div class="testi-author">
+                                    <div class="ta-info">
+                                        <h6>Braitly Dcosta</h6>
+                                        <span>Head Of Offcer</span>
+                                    </div>
+                                    <div class="testi-author-img"> <img
+                                            src="{{ url_for('static', filename='img/testimonial/testi_avatar_02.png') }}">
+                                    </div>
+                                    <div class="review-icon">
+                                        <img src="{{ url_for('static', filename='img/bg/test-icon-02.png') }}">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-testimonial">
+                                <div class="qt-img">
+                                    <img src="{{ url_for('static', filename='img/testimonial/qt-icon.png') }}">
+                                </div>
+                                <p>Education is a vital aspect of human a development, providing pro individuals such
+                                    knowledge a skills, and opportunities to acquire new universities info rma tion.e
+                                    ncompasses formal lear </p>
+                                <div class="testi-author">
+                                    <div class="ta-info">
+                                        <h6>Miranda H. Halim</h6>
+                                        <span>Head Of Idea</span>
+                                    </div>
+                                    <div class="testi-author-img"> <img
+                                            src="{{ url_for('static', filename='img/testimonial/testi_avatar.png') }}">
+                                    </div>
+                                    <div class="review-icon">
+                                        <img src="{{ url_for('static', filename='img/bg/test-icon-01.png') }}">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-testimonial">
+                                <div class="qt-img">
+                                    <img src="{{ url_for('static', filename='img/testimonial/qt-icon-02.png') }}">
+                                </div>
+                                <p>Education is a vital aspect of human a development, providing pro individuals such
+                                    knowledge a skills, and opportunities to acquire new universities info rma tion.e
+                                    ncompasses formal lear </p>
+                                <div class="testi-author">
+                                    <div class="ta-info">
+                                        <h6>Braitly Dcosta</h6>
+                                        <span>Head Of Offcer</span>
+                                    </div>
+                                    <div class="testi-author-img"> <img
+                                            src="{{ url_for('static', filename='img/testimonial/testi_avatar_02.png') }}">
+                                    </div>
+                                    <div class="review-icon">
+                                        <img src="{{ url_for('static', filename='img/bg/test-icon-02.png') }}">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial-area-end -->
+
+    </main>
+    <!-- main-area-end -->
+    {% include 'footer.html' %}
+    <!-- JS here -->
+    <script src="{{ url_for('static', filename='js/vendor/modernizr-3.5.0.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vendor/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/slick.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/ajax-form.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/paroller.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/wow.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/js_isotope.pkgd.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/imagesloaded.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/parallax.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.scrollUp.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.meanmenu.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/parallax-scroll.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/element-in-view.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>
